@@ -1,5 +1,10 @@
 img {
-    height: 50px;
+    height: 70px;
+    width: 50px;
+}
+
+tr {
+    vertical-align: middle;
 }
 
 .box {
@@ -13,4 +18,30 @@ img {
     display: block;
     text-align: center;
     margin-top: 20px;
+}
+
+.tag-count {
+    background-color: rgba(74, 144, 226, .2);
+    border-radius: 10px;
+    color: #4a90e2;
+    font-size: .65rem;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 6px;
+    white-space: nowrap;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.form-check-input:hover,
+.form-check-label:hover {
+    cursor: pointer;
 }
